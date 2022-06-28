@@ -2,7 +2,7 @@ import { format, isPast } from "date-fns";
 import ptBR from "date-fns/locale/pt-BR";
 import { CheckCircle, Lock } from "phosphor-react";
 import { Link, useParams } from "react-router-dom";
-import classNames from "classNames";
+import classNames from "classnames";
 
 interface LessonProps {
   title: string;
